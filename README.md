@@ -20,10 +20,7 @@ Um design system CSS modular, escalável e reutilizável para projetos web. Cria
 Adicione o seguinte no seu HTML:
 
 ```html
-<link
-  rel="stylesheet"
-  href="https://SEU-USUARIO.github.io/wini-design-system/index.css"
-/>
+<link rel="stylesheet" href="https://winiciusoliveira.github.io/wini-design-system/index.css" />
 ```
 
 ## 📁 Estrutura do Projeto
