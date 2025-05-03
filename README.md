@@ -79,7 +79,7 @@
 
 ## 📄 Licença Este projeto está licenciado
 
-[!WARNING]
+> [!WARNING]
 > Este projeto está licenciado sob a licença MIT.
 
 ---
