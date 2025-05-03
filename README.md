@@ -34,36 +34,36 @@
 ```
 📁 wini-design-system/
 ├── 📁 base/
-│   ├── colors.css
-│   ├── reset.css
-│   ├── structure.css
-│   └── typography.css
-│   ├── variables.css
+│   ├── 📄 colors.css
+│   ├── 📄 reset.css
+│   ├── 📄 structure.css
+│   └── 📄 typography.css
+│   ├── 📄 variables.css
 ├── 📁 components/
-│   ├── auth.css
-│   ├── buttons.css
-│   ├── cards.css
-│   ├── floating-button.css
-│   ├── footer.css
-│   ├── forms.css
-│   ├── headers.css
-│   ├── logo.css
-│   └── sliders.css
-│   └── tabs.css
+│   ├── 📄 auth.css
+│   ├── 📄 buttons.css
+│   ├── 📄 cards.css
+│   ├── 📄 floating-button.css
+│   ├── 📄 footer.css
+│   ├── 📄 forms.css
+│   ├── 📄 headers.css
+│   ├── 📄 logo.css
+│   └── 📄 sliders.css
+│   └── 📄 tabs.css
 ├── 📁 layout/
-│   ├── containers.css
-│   └── grid.css
+│   ├── 📄 containers.css
+│   └── 📄 grid.css
 ├── 📁 pages/
-│   ├── financas.css
-│   ├── main.css
+│   ├── 📄 financas.css
+│   ├── 📄 main.css
 ├── 📁 utilities/
-│   ├── flex.css
-│   ├── responsive.css
-│   ├── shadow.css
-│   ├── spacing.css
-│   ├── visibility.css
-└── index.css
-└── README.md
+│   ├── 📄 flex.css
+│   ├── 📄 responsive.css
+│   ├── 📄 shadow.css
+│   ├── 📄 spacing.css
+│   ├── 📄 visibility.css
+└── 📄 index.css
+└── 📄 README.md
 ```
 
 ---
