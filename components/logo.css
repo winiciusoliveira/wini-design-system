@@ -1,0 +1,34 @@
+/* components/logo.css */
+
+.logo-img {
+    position: relative;
+    width: 55px;
+    height: auto;
+    transform: skewX(10deg);
+    animation: flutuar 3s ease-in-out infinite alternate;
+}
+
+.svg-icon {
+    width: 20px;
+    height: auto;
+    margin-bottom: -5px;
+    margin-right: 5px;
+    fill: white;
+    cursor: url(../assets/cursor/pointer.cur), default;
+}
+
+/* Animação flutuar */
+@keyframes flutuar {
+    0% {
+        top: 0;
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        top: 1px;
+    }
+}

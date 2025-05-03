@@ -1,0 +1,44 @@
+/* components/header.css */
+
+/* DAR UM ESPAÇAMENTO PARA O CABEÇALHO */
+header {
+    padding: 40px 4%;
+}
+
+/* CENTRALIZAR O CABEÇALHO */
+.interface-centralized {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header>.interface-centralized {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* CONFIGURAR AS FONTES DO CABELHAÇO */
+header a {
+    display: inline-block;
+    color: var(--cor-texto-claro);
+    text-decoration: none;
+}
+
+/* REMOVER OS PONTOS DA LISTA */
+header nav ul {
+    list-style-type: none;
+}
+
+/* CONFIGURAR OS ITENS DA LISTA */
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* CONFIGURAÇÕES DO MENU DA NAV BAR */
+header .navbar-text:hover {
+    color: #2563eb;
+    transform: translate3d(-1px, 5px, 0px);
+    transition: .1s;
+    cursor: url(../../assets/cursor/pointer.cur), auto;
+}

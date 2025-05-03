@@ -1,0 +1,17 @@
+/* layout/containers.css */
+
+.container {
+    padding: var(--espacamento-grande);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -0.5rem;
+}
+
+.col {
+    flex: 1;
+    padding: 0.5rem;
+    min-width: 300px;
+}

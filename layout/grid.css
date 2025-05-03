@@ -1,0 +1,14 @@
+/* layout/grid.css */
+
+.grid {
+    display: grid;
+    gap: var(--espacamento-padrao);
+}
+
+.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}

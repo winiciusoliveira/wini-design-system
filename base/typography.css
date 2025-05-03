@@ -1,0 +1,27 @@
+/* base/typography.css */
+
+:root {
+    /* Tipografia */
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-padrao: 'Arial', sans-serif;
+    --fonte-inter: 'Inter', sans-serif;
+    --tamanho-titulo: 2rem;
+    --tamanho-texto: 1rem;
+}
+
+h1 {
+    font-size: var(--tamanho-titulo);
+}
+
+h2.title {
+    color: var(--cor-texto-claro);
+    font-size: 45px;
+    text-align: center;
+    margin: 108px 0;
+    cursor: url(../assets/cursor/xterm.cur), auto;
+}
+
+h2.title span {
+    color: var(--cor-primaria);
+    cursor: url(../assets/cursor/xterm.cur), auto;
+}

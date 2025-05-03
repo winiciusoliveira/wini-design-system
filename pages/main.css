@@ -1,0 +1,168 @@
+/* pages/main.css */
+
+/* ESTILO DO TOPO DO SITE */
+main section.topo-do-site {
+    padding: 40px 4%;
+}
+
+main section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 125px;
+}
+
+main section.topo-do-site h1 {
+    color: var(--cor-texto-claro);
+    font-size: 45px;
+    line-height: 1.0;
+    cursor: url(../../assets/cursor/xterm.cur), auto;
+}
+
+main section.topo-do-site .topo-do-site-text p {
+    color: var(--cor-texto-claro);
+    margin: 40px 0;
+    font-size: 18px;
+    line-height: 1.5;
+    cursor: url(../../assets/cursor/xterm.cur), auto;
+}
+
+.topo-do-site .topo-site-img img {
+    width: 400px;
+    height: auto;
+    border-radius: 20%;
+}
+
+.topo-do-site .topo-site-img img:hover {
+    transform: scale(1.1);
+    border-radius: 20%;
+    transition: 0.3s;
+}
+
+/* CONFIGURAÇÕES DA ABA ESPECIALIDADES */
+section.especialidades {
+    padding: 40px 4%;
+}
+
+section.especialidades .flex {
+    gap: 60px
+}
+
+.especialidades .especialidades-box {
+    color: var(--cor-texto-claro);
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: 0.3s;
+}
+
+.especialidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 7px #dddddd38;
+}
+
+.especialidades .especialidades-box i {
+    font-size: 70px;
+    color: var(--cor-primaria);
+}
+
+.especialidades .especialidades-box h3 {
+    font-size: 18px;
+    color: var(--cor-texto-claro);
+    margin: 15px 0;
+}
+
+.especialidades .especialidades-box p {
+    font-size: 15px;
+    color: var(--cor-texto-claro);
+}
+
+/* CONFIGURAÇÕES DO SOBRE */
+section.sobre {
+    padding: 15px 4%;
+}
+
+section.sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+section.sobre .interface-centralized .flex .sobre-img img {
+    width: 400px;
+    height: auto;
+    border-radius: 20%;
+    margin: 50px 0;
+}
+
+section.sobre .interface-centralized .flex .sobre-img img:hover {
+    transform: scale(1.1);
+    border-radius: 20%;
+    transition: 0.3s;
+}
+
+section.sobre .interface-centralized .flex .sobre-text h2 {
+    color: var(--cor-texto-claro);
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 4px;
+}
+
+section.sobre .interface-centralized .flex .sobre-text h2 span {
+    color: var(--cor-primaria);
+    display: block;
+    margin-bottom: -14px;
+}
+
+section.sobre .interface-centralized .flex .sobre-text p {
+    color: var(--cor-texto-claro);
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 14px;
+}
+
+/* CONFIGURAÇÕES DOS PROJETOS */
+section.projetos {
+    padding: 80px 4%;
+}
+
+section.projetos .flex {
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+section.projetos .flex .projetos-img {
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    cursor: url("../../assets/cursor/pointer.cur"), auto;
+    border-radius: 40px;
+    position: relative;
+}
+
+section.projetos .flex .projetos-img:hover {
+    background-position: 100% 100%;
+}
+
+section.projetos .flex .projetos-img .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--cor-overlay);
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-texto-claro);
+    font-size: 24px;
+    font-weight: 600;
+    opacity: 0;
+    transition: .5s;
+    cursor: url("../../assets/cursor/pointer.cur"), auto;
+}
+
+section.projetos .flex .projetos-img .overlay:hover {
+    opacity: 1;
+}

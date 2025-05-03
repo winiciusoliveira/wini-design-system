@@ -1,0 +1,21 @@
+/* components/tabs.css */
+
+.tab-nav {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .tab-nav button {
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .tab-nav button:hover {
+    background: #0056b3;
+  }

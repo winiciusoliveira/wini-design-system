@@ -1,0 +1,8 @@
+/* components/cards.css */
+
+.card {
+    background-color: white;
+    box-shadow: var(--sombra-padrao);
+    padding: var(--espacamento-medio);
+    border-radius: 8px;
+}

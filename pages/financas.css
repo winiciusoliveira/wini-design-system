@@ -1,0 +1,50 @@
+/* pages/financas.css */
+
+#resultado p {
+    margin-top: 1rem;
+}
+
+#categorias {
+    margin-top: 2rem;
+}
+
+.categoria-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.categoria-item input {
+    flex: 1;
+}
+
+.categoria-item button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 6px;
+}
+
+#lancamentos {
+    margin-top: 2rem;
+}
+
+#lancamentos form input,
+#lancamentos form select {
+    margin-top: 0.5rem;
+}
+
+#lista-lancamentos {
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+.logout-btn {
+    margin-left: auto;
+    background-color: #dc3545;
+}
+
+.logout-btn:hover {
+    background-color: #a71d2a;
+}

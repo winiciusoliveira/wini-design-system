@@ -1,0 +1,8 @@
+/* utilities/spacing.css */
+
+:root {
+    /* Espaçamentos */
+    --espacamento-pequeno: 8px;
+    --espacamento-medio: 16px;
+    --espacamento-grande: 32px;
+}
