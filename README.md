@@ -1,6 +1,7 @@
 # Wini Design System
 
-Um design system CSS modular, escalável e reutilizável para projetos web. Criado para acelerar o desenvolvimento com padrões visuais consistentes e boas práticas de organização.
+> [!NOTE]
+> Um design system CSS modular, escalável e reutilizável para projetos web. Criado para acelerar o desenvolvimento com padrões visuais consistentes e boas práticas de organização.
 
 ---
 
@@ -17,45 +18,68 @@ Um design system CSS modular, escalável e reutilizável para projetos web. Cria
 
 ## 🚀 Como Usar (CDN)
 
-Adicione o seguinte no seu HTML:
+- Adicione o seguinte no seu HTML:
 
 ```html
-<link rel="stylesheet" href="https://winiciusoliveira.github.io/wini-design-system/index.css" />
+<link
+  rel="stylesheet"
+  href="https://winiciusoliveira.github.io/wini-design-system/index.css"
+/>
 ```
+
+---
 
 ## 📁 Estrutura do Projeto
+
 ```
-wini-design-system/
-├── base/
+📁 wini-design-system/
+├── 📁 base/
 │   ├── colors.css
-│   ├── variables.css
+│   ├── reset.css
 │   ├── structure.css
 │   └── typography.css
-├── layout/
-│   ├── containers.css
-│   └── grid.css
-├── components/
+│   ├── variables.css
+├── 📁 components/
+│   ├── auth.css
 │   ├── buttons.css
 │   ├── cards.css
-│   ├── auth.css
-│   ├── tabs.css
+│   ├── floating-button.css
+│   ├── footer.css
+│   ├── forms.css
+│   ├── headers.css
+│   ├── logo.css
 │   └── sliders.css
-├── utilities/
+│   └── tabs.css
+├── 📁 layout/
+│   ├── containers.css
+│   └── grid.css
+├── 📁 pages/
+│   ├── financas.css
+│   ├── main.css
+├── 📁 utilities/
 │   ├── flex.css
 │   ├── responsive.css
+│   ├── shadow.css
 │   ├── spacing.css
 │   ├── visibility.css
-│   └── shadow.css
-├── pages/
-│   └── main.css
 └── index.css
+└── README.md
 ```
 
-## 👨‍💻 Sobre o autor 
+---
+
+## 👨‍💻 Sobre o autor
+
+> [!IMPORTANT]
 > Desenvolvido por Winicius Oliveira, entusiasta de Clean Code, automação e modularização de sistemas.
-> 
 > 📫 Conecte-se no LinkedIn
 > 📂 Portfólio: winiciusoliveira.github.io
 
+---
+
 ## 📄 Licença Este projeto está licenciado
-Este projeto está licenciado sob a licença MIT.
+
+[!WARNING]
+> Este projeto está licenciado sob a licença MIT.
+
+---
