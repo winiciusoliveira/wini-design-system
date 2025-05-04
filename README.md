@@ -55,7 +55,6 @@
 │   └── 📄 grid.css
 ├── 📁 pages/
 │   ├── 📄 financas.css
-│   ├── 📄 main.css
 ├── 📁 utilities/
 │   ├── 📄 flex.css
 │   ├── 📄 responsive.css

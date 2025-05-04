@@ -30,11 +30,6 @@
 @import url('./layout/grid.css');
 
 /* ========================
-   PAGES
-======================== */
-@import url('./pages/main.css');
-
-/* ========================
    UTILITIES
 ======================== */
 @import url('./utilities/flex.css');
