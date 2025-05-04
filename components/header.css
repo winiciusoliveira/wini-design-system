@@ -4,11 +4,14 @@ header {
     padding: 40px 4%;
 }
 
-.interface-centralized {
-    max-width: 1280px;
-    margin: 0 auto;
-}
 
+/* 
+CONFIGURAR A INTERFACE DENTRO DA TAG 'HEADER'
+COM O SINAL '>' ELE VAI PROCURAR ELEMENTOS DENTRO DO HEADER
+QUE POSSUEM A CLASSE 'INTERFACE-CENTRALIZED' 
+SE FOR DENTRO DE OUTRA TAG DENTRO DO HEADER NÃO VAI FUNCIONAR
+PRECISA ESTAR DENTRO DO HEADER
+*/
 header>.interface-centralized {
     display: flex;
     align-items: center;
@@ -19,11 +22,13 @@ header>.interface-centralized {
 header a {
     display: inline-block;
     color: var(--cor-texto-claro);
+    /* REMOVE O SUBLINHADO */
     text-decoration: none;
 }
 
 /* REMOVER OS PONTOS DA LISTA */
 header nav ul {
+    /* REMOVE OS PONTOS DA LISTA */
     list-style-type: none;
 }
 
