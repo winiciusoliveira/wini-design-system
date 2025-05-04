@@ -1,11 +1,9 @@
 /* components/header.css */
 
-/* DAR UM ESPAÇAMENTO PARA O CABEÇALHO */
 header {
     padding: 40px 4%;
 }
 
-/* CENTRALIZAR O CABEÇALHO */
 .interface-centralized {
     max-width: 1280px;
     margin: 0 auto;

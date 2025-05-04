@@ -3,15 +3,3 @@
 :root {
     --max-width: 1200px;
 }
-
-html,
-body {
-    font-family: var(--fonte-principal);
-    background-color: var(--cor-fundo-escuro);
-    color: var(--cor-texto);
-    height: 100vh;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-}
