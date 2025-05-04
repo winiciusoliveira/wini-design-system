@@ -36,7 +36,6 @@
 ├── 📁 base/
 │   ├── 📄 colors.css
 │   ├── 📄 reset.css
-│   ├── 📄 structure.css
 │   └── 📄 typography.css
 │   ├── 📄 variables.css
 ├── 📁 components/
