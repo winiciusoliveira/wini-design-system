@@ -13,10 +13,8 @@
     font-size: 30px;
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
-    cursor: url("../assets/cursor/pointer.cur"), auto;
 }
 
 .my-float {
     margin-top: 16px;
-    cursor: url("../assets/cursor/pointer.cur"), auto;
 }

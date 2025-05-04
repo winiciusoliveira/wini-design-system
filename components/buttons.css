@@ -1,6 +1,5 @@
 /* components/buttons.css */
 
-/* CONFIGURAÇÃO DO BOTÃO DE CONTATO */
 .btn-contato span {
     padding: 10px 50px;
     font-size: 14px;
@@ -15,13 +14,6 @@
     transform: scale(0.9);
     background-color: var(--cor-terciaria);
     box-shadow: 0px 0px 8px var(--cor-primaria);
-    cursor: url(../../assets/cursor/pointer.cur), auto;
-}
-
-.btn-contato a,
-.btn-contato a span,
-.btn-contato a span svg {
-    cursor: url(../../assets/cursor/pointer.cur), auto;
 }
 
 .btn-social {

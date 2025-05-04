@@ -18,10 +18,8 @@ h2.title {
     font-size: 45px;
     text-align: center;
     margin: 108px 0;
-    cursor: url(../assets/cursor/xterm.cur), auto;
 }
 
 h2.title span {
     color: var(--cor-primaria);
-    cursor: url(../assets/cursor/xterm.cur), auto;
 }
